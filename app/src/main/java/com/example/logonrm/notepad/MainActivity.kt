@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
             R.id.salvar -> {
-                Toast.makeText(this, "Salvar", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Salvei", Toast.LENGTH_LONG).show()
                 return true
             }
             else -> return super.onOptionsItemSelected(item)
