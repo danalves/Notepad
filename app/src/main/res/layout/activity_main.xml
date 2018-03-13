@@ -19,11 +19,17 @@
     <EditText
         android:id="@+id/etConteudo"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:hint="Digite aqui o conteúdo da anotação ..."
         android:gravity="top"
         style="@style/meu_edittext"/>
         <!--android:background="@drawable/selector_custom_edittext"/>-->
+
+    <Button
+        android:id="@+id/btTeste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TESTE"/>
 
 
 </LinearLayout>
